@@ -16,9 +16,9 @@ int main()
 	string name = ".\\";
 	string newname = "real_";
 	
-	cout<<"輸入路徑(.\\)\n";
+	cout<<"input path(.\\)\n";
 	cin>>name;
-	cout<<"輸入命名前綴\n";
+	cout<<"input name prefix\n";
 	cin>>newname;
 	
 	fstream file;	
